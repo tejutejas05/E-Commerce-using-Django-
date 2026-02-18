@@ -10,7 +10,7 @@
 <body>
     <h1>PRODUCTS</h1>
 
-    {% for product in products%}
+    {% for product in products %}
         <img src="{{ product.image.url }}" alt="{{ product.name }}" width="250">
         <h3>{{ product.name }}</h3>
         <p>PRICE : Rs{{ product.price }}</p>
